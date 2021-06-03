@@ -18,10 +18,10 @@ services:
         aliases:
           - mongodb
 
-  addressbook:    
-   image: addressbook 
-   build: ./addressbook                
-   container_name: addressbook
+  covidbot:    
+   image: covidbot 
+   build: ./covidbot                
+   container_name: covidbot
    links:
       - mongodb
    environment:

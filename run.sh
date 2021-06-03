@@ -11,7 +11,7 @@ sudo docker-compose down
 echo "Start all containers"
 sudo docker-compose  up -d --build
 echo "New Release is Ready"
-sudo docker logs --follow addressbook
+sudo docker logs --follow covidbot
 
 
 
